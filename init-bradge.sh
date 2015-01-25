@@ -15,5 +15,6 @@ init_br brmgr 10.0.0.1
 init_br brtun 10.0.1.1
 init_br brstg 10.0.2.1
 init_br brext 10.0.3.1
+init_br brbusiness 10.0.4.1
 
 iptables -t nat -A POSTROUTING -s 10.0.0.0/16 -j MASQUERADE
